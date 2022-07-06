@@ -247,3 +247,44 @@ input {
     font-size: 18px;
     font-weight: normal;
 }
+
+#input-field {
+    background-color: rgb(202, 191, 191);
+    width: 350px;
+    border-radius: 10px;
+
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    padding: 100px;
+    margin-left: 280px;
+    background-color: #fce8ce;
+    border-radius: 10px;
+    margin-bottom: 100px;
+
+}
+
+#input-field,
+button {
+    padding: 15px;
+}
+
+button {
+    background-color: #ff5959;
+    color: white;
+    border: none;
+    position: absolute;
+    left: 940px;
+    padding: 18px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.reach-us {
+
+    text-align: center;
+}
