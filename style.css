@@ -1,3 +1,8 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
 body {}
 
 section {}
@@ -163,4 +168,34 @@ footer p {
     color: white;
     font-size: 16px;
 
+}
+
+#pay-slot {
+
+    display: flex;
+    justify-content: center;
+}
+
+.others-amount {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+}
+
+.donate-btn {
+    position: absolute;
+    margin-top: 30px;
+    left: 48%;
+    outline: none;
+    text-align: center;
+    color: black;
+}
+
+input {
+    text-align: center;
+    color: black;
+}
+
+::placeholder {
+    text-align: center;
 }
