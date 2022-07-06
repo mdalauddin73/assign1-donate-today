@@ -9,7 +9,6 @@ section {}
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #container1-child {
@@ -33,4 +32,109 @@ section {}
     text-decoration: none;
     border-radius: 5px;
 
+}
+
+input {
+    border: 0;
+    color: lightgrey;
+    font-size: 18px;
+}
+
+#container2-main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#container2-child {
+    width: 50%;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+#container2-child a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px 15px;
+    color: white;
+    background-color: #ff5959;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+#pay-slot {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+span.a {
+    display: inline-block;
+    width: 112px;
+    height: 60px;
+    padding: 40px 0px 0px 0px;
+    border: none;
+    background-color: lightgray;
+    vertical-align: middle;
+    margin: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+span.b {
+    border: 2px solid #ff5959;
+    background-color: #ffeeee;
+}
+
+#container3-main {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#container3-top {
+    text-align: center;
+
+}
+
+#container3-child {
+    width: 50%;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+span.c {
+    display: inline-block;
+    width: 250px;
+    height: 170px;
+    padding: 40px 10px 40px 10px;
+    border: none;
+    margin: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 5px;
+    line-height: 80%;
+}
+
+span.d {
+    background-color: #edf5f6;
+}
+
+span.e {
+    background-color: #ffeeee;
+}
+
+span.f {
+    background-color: #fff4d6;
+}
+
+
+#donate-plan {
+    margin-bottom: 20px;
+    display: flex;
 }
