@@ -1,7 +1,36 @@
-body {
-    font-family: 'Roboto', sans-serif;
+body {}
+
+section {}
+
+#container1-main {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-div#container1 {
-    color: red;
+#container1-child {
+    text-align: center;
+    width: 50%;
+    color: white;
+    margin-bottom: 70px;
+}
+
+#container1-child h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+}
+
+#container1-child a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px 15px;
+    color: white;
+    background-color: #ff5959;
+    text-decoration: none;
+    border-radius: 5px;
+
 }
