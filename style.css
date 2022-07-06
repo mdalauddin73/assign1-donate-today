@@ -199,3 +199,25 @@ input {
 ::placeholder {
     text-align: center;
 }
+
+#donate-plan {
+    display: flex;
+    ;
+}
+
+.title {
+    margin-left: 15px;
+}
+
+.title-img {
+    margin-left: 15px;
+}
+
+.title-description {
+    margin-left: 15px;
+}
+
+#donate-plan {
+    display: flex;
+    justify-content: center;
+}
